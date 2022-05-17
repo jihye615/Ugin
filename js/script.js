@@ -36,7 +36,25 @@ setInterval(function(){
 
 },3000);
 
-//modal
+// ---------------slider Left-------------------
+// let img = $('#slide ul li:first').clone();
+//     img.appendTo('#slide ul')
+//     let num = 1
+
+//     setInterval(function(){
+//         if(num > 3){
+//         $('#slide ul').css('margin-left',0)
+//         num = 1
+//     }
+
+//         $('#slide ul').animate({marginLeft : '-=1200'},600)
+//         num++
+//     },3000)
+
+
+
+
+//-----------------------modal-----------------------
 $('#open').click(function(){
     $('#modal').show();
 })
@@ -45,3 +63,21 @@ $('#colse').click(function(){
 })
 
 })
+
+// ----------------------탭------------------------------
+// let tabBtn = $('#tab-btn ul li')
+//     let tabCont = $('#tab-cont > div')
+
+//     tabBtn.click(function(){
+//         let target = $(this);
+//         let index = target.index();
+
+//         tabBtn.removeClass('active');
+//         target.addClass('active')
+
+//         tabCont.css('display', 'none')
+//         tabCont.eq(index).css('display', 'block')
+//         tabCont.addClass('active-bg')
+//     })
+
+
